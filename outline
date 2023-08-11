@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SHS App Verification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SHS App Verification</h1>
+        <p>Thank you for using our app. Your verification code is:</p>
+        <h2><span id="verificationCode">123456</span></h2>
+        <p>Copy this code and paste it into the application where it asks for your verification code.</p>
+        <p>If you did not sign up for this service, please ignore this email.</p>
+    </div>
+</body>
+</html>
